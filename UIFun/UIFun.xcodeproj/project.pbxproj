@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B74C97321D17531900D0EEA5 /* PaintBucket.png in Resources */ = {isa = PBXBuildFile; fileRef = B74C97311D17531900D0EEA5 /* PaintBucket.png */; };
-		B74C97341D17540100D0EEA5 /* ColorExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C97331D17540100D0EEA5 /* ColorExtras.swift */; };
+		B74C97341D17540100D0EEA5 /* se.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C97331D17540100D0EEA5 /* se.swift */; };
 		B7AAB9E71D174E6800826CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AAB9E61D174E6800826CCC /* AppDelegate.swift */; };
 		B7AAB9E91D174E6800826CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AAB9E81D174E6800826CCC /* ViewController.swift */; };
 		B7AAB9EC1D174E6800826CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7AAB9EA1D174E6800826CCC /* Main.storyboard */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		B74C97311D17531900D0EEA5 /* PaintBucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaintBucket.png; sourceTree = "<group>"; };
-		B74C97331D17540100D0EEA5 /* ColorExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtras.swift; sourceTree = "<group>"; };
+		B74C97331D17540100D0EEA5 /* se.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = se.swift; sourceTree = "<group>"; };
 		B7AAB9E31D174E6800826CCC /* UIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AAB9E61D174E6800826CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7AAB9E81D174E6800826CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				B7AAB9EF1D174E6800826CCC /* LaunchScreen.storyboard */,
 				B7AAB9F21D174E6800826CCC /* Info.plist */,
 				B74C97311D17531900D0EEA5 /* PaintBucket.png */,
-				B74C97331D17540100D0EEA5 /* ColorExtras.swift */,
+				B74C97331D17540100D0EEA5 /* se.swift */,
 			);
 			path = UIFun;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7AAB9E91D174E6800826CCC /* ViewController.swift in Sources */,
-				B74C97341D17540100D0EEA5 /* ColorExtras.swift in Sources */,
+				B74C97341D17540100D0EEA5 /* se.swift in Sources */,
 				B7AAB9E71D174E6800826CCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
