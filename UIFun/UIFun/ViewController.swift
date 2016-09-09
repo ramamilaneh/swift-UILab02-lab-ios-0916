@@ -24,25 +24,22 @@ class ViewController: UIViewController {
     func mixColors(withFirst first: String, second: String) -> String {
         // TODO: Mix colors and return a string indicating the name of the mixed color
         // (e.g., "red", "purple", "blue")
-        var mix : String = ""
-        if ((first == "red")&&(second == "red")){
+        var mix : String
+        switch (first,second){
+        case ("red","red"):
         mix="red"
-        }else if(first=="red")&&(second=="yellow"){
+        case ("red","yellow"),("yellow","red"):
             mix="orange"
-        }else if(first=="red")&&(second=="blue"){
+        case("red","blue"),("blue","red"):
             mix="purple"
-        }else if(first=="yellow")&&(second=="yellow"){
+        case("yellow","yellow"):
             mix="yellow"
-        }else if(first=="yellow")&&(second=="red"){
-            mix="orange"
-        }else if(first=="yellow")&&(second=="blue"){
+        case("yellow","blue"),("blue","yellow"):
             mix="green"
-        }else if(first=="blue")&&(second=="red"){
-            mix="purple"
-        }else if(first=="blue")&&(second=="yellow"){
-            mix="green"
-        }else if(first=="blue")&&(second=="blue"){
+        case("blue","blue"):
             mix="blue"
+        default:
+            return"No color"
         }
         return mix
     }
